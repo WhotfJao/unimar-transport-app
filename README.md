@@ -1,53 +1,53 @@
-🚌 Unimar Transport App
+# 🚌 Unimar Transport App  
 
-Aplicativo móvel desenvolvido em Flutter para a Unimar, com o objetivo de modernizar e facilitar a gestão do transporte universitário.
-O sistema permite que estudantes, motoristas e administradores utilizem QR Codes, horários dinâmicos e funcionalidades integradas para melhorar a mobilidade dentro da universidade.
+Aplicativo desenvolvido em **Flutter** para a Unimar, focado em transporte universitário.  
+Permite que estudantes, validadores e administradores organizem tickets, validem QR Codes e gerenciem eventos de forma rápida e intuitiva.  
 
-✨ Funcionalidades
+---
 
-🔐 Autenticação Segura: Login e registro de usuários com integração ao Firebase Auth
+## ✨ Funcionalidades  
 
-🧑‍🎓 Perfil do Usuário: Informações do estudante e personalização de experiência
+- 🔐 **Autenticação Segura**: Login e registro de usuários com Firebase Auth  
+- 👤 **Perfil do Usuário**: Personalização de informações e preferências  
+- 🎟️ **Tickets Digitais**: Geração de tickets com QR Code  
+- ✅ **Validação em Tempo Real**: Scanner integrado para motoristas/validadores  
+- 🕒 **Horários de Ônibus**: Consulta rápida e atualizada  
+- 🗺️ **Mapa Interativo**: Navegação pelo campus  
+- 📅 **Eventos Acadêmicos**: Visualização e participação em eventos  
+- 🎨 **Tutorial Inicial**: Onboarding para novos usuários  
+- 🍔 **Menu Flutuante Customizado**: Acesso rápido e animado às telas principais  
 
-📅 Gerenciamento de Tickets: Emissão de tickets digitais com QR Code
+---
 
-📲 Validação em Tempo Real: Motoristas validam tickets com scanner integrado
+## 🛠️ Tecnologias Utilizadas  
 
-🕒 Horários de Ônibus: Consulta rápida e atualizada dos horários de transporte
+- 📱 **Frontend**: Flutter 3.x + Dart  
+- 🔐 **Autenticação**: Firebase Auth  
+- 🗄️ **Banco de Dados**: Firebase Firestore  
+- 💾 **Armazenamento Local**: SharedPreferences  
+- 📷 **QR Code**: `qr_flutter` + `mobile_scanner`  
+- 🎨 **UI/UX**: Material Design + animações personalizadas  
 
-🗺️ Mapa Interativo do Campus: Navegação e localização facilitada dentro da universidade
+---
 
-🎟️ Eventos e Atividades: Acesso a workshops, palestras e eventos acadêmicos
+## 🚀 Como Executar  
 
-🎨 Tutorial Inicial: Onboarding com ilustrações e explicações para novos usuários
+### Pré-requisitos  
+- Flutter SDK 3.x  
+- Android Studio ou VS Code  
+- Emulador Android ou dispositivo físico  
 
-🍔 Menu Flutuante Customizado: Navegação rápida e animada para todas as telas principais
+### Instalação  
 
-🛠️ Tecnologias Utilizadas
+```bash
+# Clone o repositório
+git clone [url-do-repositorio]
 
-Framework: Flutter 3.x
+# Acesse o diretório
+cd unimar-transport-app
 
-Linguagem: Dart
+# Instale as dependências
+flutter pub get
 
-Autenticação: Firebase Auth
-
-Banco de Dados: Firebase Firestore
-
-Gerenciamento de Estado: Provider / Riverpod (dependendo do seu código atual)
-
-Armazenamento Local: SharedPreferences (para salvar preferências e status do tutorial)
-
-QR Code: qr_flutter + mobile_scanner
-
-UI/UX: Material Design + Animações customizadas
-
-🚀 Como Executar
-Pré-requisitos
-
-Flutter SDK 3.x
-
-Android Studio ou VS Code
-
-Emulador Android ou dispositivo físico
-
-Instalação
+# Execute no emulador ou dispositivo
+flutter run
